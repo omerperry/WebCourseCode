@@ -1,0 +1,65 @@
+.tb-button {
+    background-color:#45c8cb;
+    border-radius: 5px;
+    border-style:none;
+    padding: 10px 15px 10px 15px;
+    font-size:20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:900;
+    color:#fff;
+}
+.tb-button:hover {
+    background-color:#27898b;
+    cursor: pointer;
+}
+#tb-drop{
+    display: none;
+}
+#dropdownarrow{
+    font-size:15px;
+    transform: rotate(0);
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+}
+.tb-dropdown{
+    background-color: #f3f5f5;
+    border-color:#45c8cb;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
+    width:fit-content;
+    padding: 0 20px 10px 20px;
+    margin-top:5px;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.tb-text{
+    font-weight: 500;
+}
+.tb-dropdown > form > input,select {
+    width:200px;
+    margin-left:10px;
+    border-radius: 5px;
+    border-style: none;
+    height:30px;
+    margin-top:20px;
+    font-family: 'Ubuntu', sans-serif;
+    padding:5px
+}
+.tb-dropdown > form > label {
+    width: min-content;
+}
+#submit{
+    cursor: pointer;
+    background-color: #1bad40;
+    color:#fff;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-left: 17%;
+    height:40px
+
+}
+#submit:hover{
+    background-color: #137d2e;
+}
